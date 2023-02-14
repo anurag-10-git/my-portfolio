@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../../../assets/portfolio.jpg";
+import portfolio from "../../../assets/portfolio.jpeg";
 import "./Home.scss";
 import { motion } from "framer-motion";
 
@@ -31,15 +31,15 @@ const Home = () => {
         </div>
         <div className="profile_text">
           <h3 className="name">
-            Hi I'm <span>Saurabh Sagar Pandey</span>{" "}
+            Hi I'm <span>Anurag Mohan</span>{" "}
           </h3>
           <h3 className="job">
-            Front-End Developer<span> Based on India </span>
+            Full-Stack Developer<span> Based in India </span>
           </h3>
           <div className="skill-container">
             <div className="web">Web Developer</div>
-            <div className="ui">UI/UX Designer</div>
-            <div className="freelance">Freelancer</div>
+            <div className="freelance">Coder</div>
+            <div className="ui">Programmer</div>
           </div>
           <span className="text">
             Passionate

@@ -1,12 +1,12 @@
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import {  FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import './Icon.css';
 const Icon = () => {
     return (
         <>
             <div className='icons'>
-                <a href="https://github.com/saurabh317" target="_blank" rel="noreferrer"><FaGithub /></a>
-                <a href="https://www.linkedin.com/in/saurabh-sagar-pandey-9b6a5624b/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-                <a href="https://www.instagram.com/_saurabhpandey317/" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                <a href="https://github.com/anurag-10--git" target="_blank" rel="noreferrer"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/anurag-mohan-19903b259/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                <a href="https://www.facebook.com/anurag.mehra.92/" target="_blank" rel="noreferrer"><FaFacebook /></a>
             </div>
 
         </>

@@ -14,11 +14,11 @@
       border-radius: 50%;
       object-fit: cover;
       border: 4px solid transparent;
-      outline: 6px solid #21d49e7d;
+      outline: 6px solid #21d49ec3;
       box-shadow: 0 0 23px #21d49e ;
       background-color: #21d49e39;
-      backdrop-filter: blur(2px);
-      filter: brightness(90%);
+      // backdrop-filter: blur(2px);
+      // filter: brightness(90%);
   
     }
   }
@@ -48,7 +48,7 @@
     }
     .job {
       color: #fff;
-      opacity: 0.5;
+      opacity: 0.8;
       font-size: 0.85rem;
     }
     .text {

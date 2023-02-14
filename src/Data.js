@@ -8,16 +8,16 @@ import css from './assets/css.png';
 import js from './assets/javascript.png';
 import reacticon from './assets/react.png';
 import redux from './assets/redux.png';
-import bootstrap from './assets/bootstrap.png'
+import nodejs from './assets/nodejs.png'
 import talwind from './assets/talwind.png';
-import figma from './assets/figma.png';
-import firebase from './assets/firebase.png';
-import work1 from "./assets/crypto.mp4";
-import work2 from "./assets/portfolio.mp4";
-import work3 from "./assets/omnifood.mp4";
-import work4 from './assets/bankist.mp4';
-import work5 from './assets/superhero.mp4';
-import work6 from './assets/music.mp4';
+import express from './assets/expressjs.png';
+import mongo from './assets/mongo.png';
+import work1 from "./assets/crypto.png";
+import work2 from "./assets/talksocket.png";
+import work3 from "./assets/omnifood.png";
+import work4 from './assets/travelpage.png';
+import work5 from './assets/bankist.png';
+import work6 from './assets/expkart.png';
 
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
@@ -34,23 +34,23 @@ export const bios = [
     id: 1,
     icon: <FaUser />,
     key: "Name",
-    value: "Saurabh"
+    value: "Anurag Mohan"
   },
   {
     id: 2,
     icon: <FaPhoneAlt />,
     key: "Phone",
-    value: "9123486054"
+    value: "6206396234"
   },
   {
     id: 3,
     icon: <FaPaperPlane />,
     key: "Email",
-    value: "saurabhsp317@gmail.com"
+    value: "anuragmohan2022@gmail.com"
   }
 ]
 
-export const icons = [c, cpp, java, html, css, js , reacticon, redux, talwind,bootstrap,figma,firebase]
+export const icons = [c, cpp, java, html, css, js , reacticon, redux, talwind,express, mongo, nodejs]
 
 export const experiences = [
   {
@@ -96,8 +96,7 @@ export const workImages = [
     img: work1,
     name: "project 1",
     category: "web",
-    git:"https://github.com/saurabh317/TRACy-CRYPTO-APP",
-    liveDemo:"https://crypto-hunter.netlify.app/",
+    git:"https://github.com/anurag-10-git/crypto-hunter",
 
   },
   {
@@ -105,40 +104,35 @@ export const workImages = [
     img: work2,
     name: "project 2",
     category: "web",
-    git:"https://github.com/saurabh317/My-PortFolio",
-    liveDemo:"",
+    git:"https://github.com/anurag-10-git/TalkSocket-chat-app",
   },
   {
     id: 3,
     img: work3,
     name: "project 3",
     category: "web",
-    git:"https://github.com/saurabh317/OMNI__FOOD-FRONT-END-",
-    liveDemo:"",
+    git:"https://github.com/anurag-10-git/omnifood",
   },
   {
     id: 4,
     img: work4,
     name: "project 4",
     category: "app",
-    git:"https://github.com/saurabh317/BANKIST-FRONT-END-",
-    liveDemo:"https://bankist-7ee205.netlify.app/",
+    git:"https://github.com/anurag-10-git/tours-and-travel-page-frontend",
   },
   {
     id: 5,
     img: work5,
     name: "project 5",
     category: 'app',
-    git:"https://github.com/saurabh317/SUPER-HERO-JAVASCRIPT",
-    liveDemo:"https://saurabh317.github.io/SUPER-HERO-JAVASCRIPT/",
+    git:"https://github.com/anurag-10-git/Bankist-learning-js",
   },
   {
     id: 6,
     img: work6,
     name: "project 6",
     category: "design",
-    git:"https://github.com/saurabh317/MUSIC__PLAYER-FRONT-END",
-    liveDemo:"",
+    git:"https://github.com/anurag-10-git/ExpKart-eCommerce-website",
   }
 ]
 
@@ -156,11 +150,11 @@ export const contacts = [
   {
     id: 2,
     icon: <FaPaperPlane />,
-    infoText: "saurabhsp317@gmail.com"
+    infoText: "anuragmohan2022@gmail.com"
   },
   {
     id: 3,
     icon: <FaPhoneAlt />,
-    infoText: "+91-9123486054"
+    infoText: "+91-6206396234"
   }
 ]

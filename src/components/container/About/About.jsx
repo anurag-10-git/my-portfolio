@@ -3,7 +3,7 @@ import "./About.scss";
 import Resume from '../../../assets/resume.pdf';
 import { motion } from 'framer-motion';
 import { bios } from '../../../Data';
-import portfolio from "../../../assets/portfolio.jpg";
+import portfolio2 from "../../../assets/portfolio2.jpeg";
 
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
           whileInView={{ x: [-250, 0], opacity: 1 }}
           transition={{ duration: 1 }}
           className="about_left">
-          <motion.img src={portfolio}
+          <motion.img src={portfolio2}
             whileHover={{ y: -48, x: -55 }}
             transition={{ duration: 0.3 }}
           />
@@ -38,7 +38,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Hello! My name is Saurabh, I am a logical and results-driven FRONT-END Web Developer dedicated to building and optimizing user- focused websites for customers.I have been learning web related technologies & brushing up all those skills and making my hands dirty by working on some real time projects at the very same time. Now i am looking for an opportunity to get into this Tech-World.</p>
+          <p>Hello! My name is Anurag, I am a logical and results-driven FULL-STACK Web Developer dedicated to building and optimizing user-focused websites.I have been learning web related technologies & brushing up all those skills and making my hands dirty by working on some real time projects at the very same time. Now i am looking for an opportunity to get into this Tech-World.</p>
           {bios.map(bio => {
             return (
               <div className="bio" key={bio.id}>

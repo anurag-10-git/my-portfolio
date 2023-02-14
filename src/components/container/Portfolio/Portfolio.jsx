@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./Portfolio.scss"
 import { workNavs } from "../../../Data";
 import { workImages } from '../../../Data';
-import { FiGithub, FiEye } from "react-icons/fi"
+import { FiGithub} from "react-icons/fi"
 import { motion } from 'framer-motion';
 
 const Portfolio = () => {
@@ -66,8 +66,8 @@ const Portfolio = () => {
               key={work.id}
             >
               {/* <img src={work.img} alt="project"  /> */}
-              <video className="videos" width='100%' height='100%' type="video/mp4" autoPlay muted
-              src={work.img}></video>
+              <img className="videos" width='100%' height='100%' 
+              src={work.img}></img>
 
               <motion.div
                 initial={{ opacity: 0 }}
@@ -84,13 +84,13 @@ const Portfolio = () => {
                   <FiGithub />
                 </motion.a>
 
-                <motion.a href={work.liveDemo}
+                {/* <motion.a href={work.liveDemo}
                   whileInView={{ scale: [ 0, 1 ] }}
                   whileHover={{ scale: [ 1, 1.1 ] }}
                   transition={{ duration: 0.3 }}
                 >
                   <FiEye />
-                </motion.a>
+                </motion.a> */}
               </motion.div>
             </div>
           )
